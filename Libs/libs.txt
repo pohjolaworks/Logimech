@@ -1,0 +1,6 @@
+Following footprint libraries were used with this project:
+
+Kailh_cpg1353.pretty
+Keebio_Parts.pretty
+keyboard_parts.pretty
+pohjola.pretty

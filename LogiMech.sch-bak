@@ -1,0 +1,222 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x06 JST_1
+U 1 1 5F7CB28C
+P 2800 3600
+F 0 "JST_1" H 2880 3592 50  0000 L CNN
+F 1 "Conn_01x06" H 2880 3501 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical" H 2800 3600 50  0001 C CNN
+F 3 "~" H 2800 3600 50  0001 C CNN
+	1    2800 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K1
+U 1 1 5F7CD41D
+P 2250 2200
+F 0 "K1" H 2250 2433 60  0000 C CNN
+F 1 "KEYSW" H 2250 2100 60  0001 C CNN
+F 2 "Kailh_cpg1353:kailh-cpg1353-reversible" H 2250 2200 60  0001 C CNN
+F 3 "" H 2250 2200 60  0000 C CNN
+	1    2250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5F7CD9D0
+P 1950 2350
+F 0 "D1" V 1996 2271 50  0000 R CNN
+F 1 "D" V 1905 2271 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1950 2350 50  0001 C CNN
+F 3 "~" H 1950 2350 50  0001 C CNN
+	1    1950 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K2
+U 1 1 5F7D0E82
+P 3250 2150
+F 0 "K2" H 3250 2383 60  0000 C CNN
+F 1 "KEYSW" H 3250 2050 60  0001 C CNN
+F 2 "Kailh_cpg1353:kailh-cpg1353-reversible" H 3250 2150 60  0001 C CNN
+F 3 "" H 3250 2150 60  0000 C CNN
+	1    3250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5F7D0E88
+P 2950 2300
+F 0 "D3" V 2996 2221 50  0000 R CNN
+F 1 "D" V 2905 2221 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2950 2300 50  0001 C CNN
+F 3 "~" H 2950 2300 50  0001 C CNN
+	1    2950 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K3
+U 1 1 5F7D1F7C
+P 4250 2150
+F 0 "K3" H 4250 2383 60  0000 C CNN
+F 1 "KEYSW" H 4250 2050 60  0001 C CNN
+F 2 "Kailh_cpg1353:kailh-cpg1353-reversible" H 4250 2150 60  0001 C CNN
+F 3 "" H 4250 2150 60  0000 C CNN
+	1    4250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5F7D1F82
+P 3950 2300
+F 0 "D5" V 3996 2221 50  0000 R CNN
+F 1 "D" V 3905 2221 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3950 2300 50  0001 C CNN
+F 3 "~" H 3950 2300 50  0001 C CNN
+	1    3950 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K4
+U 1 1 5F7D31F6
+P 2250 2750
+F 0 "K4" H 2250 2983 60  0000 C CNN
+F 1 "KEYSW" H 2250 2650 60  0001 C CNN
+F 2 "Kailh_cpg1353:kailh-cpg1353-reversible" H 2250 2750 60  0001 C CNN
+F 3 "" H 2250 2750 60  0000 C CNN
+	1    2250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5F7D31FC
+P 1950 2900
+F 0 "D2" V 1996 2821 50  0000 R CNN
+F 1 "D" V 1905 2821 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1950 2900 50  0001 C CNN
+F 3 "~" H 1950 2900 50  0001 C CNN
+	1    1950 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K5
+U 1 1 5F7D3FC0
+P 3250 2700
+F 0 "K5" H 3250 2933 60  0000 C CNN
+F 1 "KEYSW" H 3250 2600 60  0001 C CNN
+F 2 "Kailh_cpg1353:kailh-cpg1353-reversible" H 3250 2700 60  0001 C CNN
+F 3 "" H 3250 2700 60  0000 C CNN
+	1    3250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5F7D3FC6
+P 2950 2850
+F 0 "D4" V 2996 2771 50  0000 R CNN
+F 1 "D" V 2905 2771 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2950 2850 50  0001 C CNN
+F 3 "~" H 2950 2850 50  0001 C CNN
+	1    2950 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K6
+U 1 1 5F7D49CA
+P 4250 2700
+F 0 "K6" H 4250 2933 60  0000 C CNN
+F 1 "KEYSW" H 4250 2600 60  0001 C CNN
+F 2 "Kailh_cpg1353:kailh-cpg1353-reversible" H 4250 2700 60  0001 C CNN
+F 3 "" H 4250 2700 60  0000 C CNN
+	1    4250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5F7D49D0
+P 3950 2850
+F 0 "D6" V 3996 2771 50  0000 R CNN
+F 1 "D" V 3905 2771 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3950 2850 50  0001 C CNN
+F 3 "~" H 3950 2850 50  0001 C CNN
+	1    3950 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 2150 4800 2150
+Wire Wire Line
+	4800 2150 4800 3400
+Wire Wire Line
+	4800 3400 3000 3400
+Wire Wire Line
+	2600 3400 2600 3700
+Wire Wire Line
+	2600 3700 4550 3700
+Wire Wire Line
+	4550 3700 4550 2700
+Wire Wire Line
+	3000 3400 3000 3150
+Wire Wire Line
+	3000 3150 3700 3150
+Connection ~ 3000 3400
+Wire Wire Line
+	3950 3000 3700 3000
+Wire Wire Line
+	3700 3000 3700 3150
+Wire Wire Line
+	3950 2450 3700 2450
+Wire Wire Line
+	3700 2450 3700 3000
+Connection ~ 3700 3000
+Wire Wire Line
+	2950 2450 3700 2450
+Connection ~ 3700 2450
+Wire Wire Line
+	2950 3000 3700 3000
+Wire Wire Line
+	3550 2700 3550 3300
+Wire Wire Line
+	3550 3300 2900 3300
+Wire Wire Line
+	2900 3300 2900 3400
+Wire Wire Line
+	2800 3400 2800 1800
+Wire Wire Line
+	2800 1800 3550 1800
+Wire Wire Line
+	3550 1800 3550 2150
+Wire Wire Line
+	2550 2200 2700 2200
+Wire Wire Line
+	2700 2200 2700 3400
+Wire Wire Line
+	2600 3400 2600 2750
+Wire Wire Line
+	2600 2750 2550 2750
+Connection ~ 2600 3400
+Wire Wire Line
+	2500 3400 1700 3400
+Wire Wire Line
+	1700 3400 1700 3050
+Wire Wire Line
+	1700 2500 1950 2500
+Wire Wire Line
+	1950 3050 1700 3050
+Connection ~ 1700 3050
+Wire Wire Line
+	1700 3050 1700 2500
+$EndSCHEMATC
